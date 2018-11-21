@@ -1,0 +1,289 @@
+ /* *
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #bodyid{
+    background-image: url("../images/gravel.png");
+  }
+  
+  header {
+    /* padding: 20px; */
+    /* margin-bottom: 5px; */
+    color: #333;
+    background: #ffffff;
+    border-bottom: 2px solid lightgray;
+    height: auto; /*if more info comes on the page, it will stretch down*/
+    /* width: 1000px; */
+    margin: auto; /*this will cause the div to be in the center*/
+    padding: 0;
+    display: block;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  #vl1 {
+    border-left: 1px solid lightgray;
+    height: 12px;
+    left: 66%;
+    top: 20px;
+    float:left;
+    position: absolute;
+}
+
+#vl2 {
+  border-left: 1px solid lightgray;
+  height: 12px;
+  left: 76%;
+  top: 20px;
+  float:left;
+  position: absolute;
+}
+
+.box-set{
+  height: 55px;
+  /* position: fixed; */
+}
+
+.portfoliophotogroup{
+  width: 240px;
+}
+
+.photo{
+  position: relative;
+  float: left;
+}
+
+.label{
+  height: 35px;
+  width: 100px;
+  position: absolute;
+  top: 65px;
+  margin-left: 10px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#myname {
+  float: left;
+  background-color: #4aaaa5;
+  color: white;
+  width: 10%;
+  margin-left: 200px;  
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  overflow:auto;
+}
+
+#About {
+  float:left;
+  position: absolute;
+  left: 57%;
+  background-color: white;
+  width: 8%;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+#Portfolio {
+  float: left;
+  position: absolute;
+  left: 67%;
+  background-color: white;
+  width: 8%;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+#Contact {
+  float: left;
+  position: absolute;
+  left: 77%;
+  background-color: white;
+  width: 8%;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+}
+  
+aboutme {
+  float:left;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  color: #4aaaa5;
+  margin-top: 10px;
+}
+
+#content {
+  background-color: white;
+  height: 380px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color:gray;
+}
+
+#contactinfo {
+  background-color: white;
+  height: 430px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color:gray;
+}
+  
+#portfolioinfo{
+  background-color: white;
+  height: 459px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color:gray;
+}
+
+.h_line { 
+  width:95%; 
+  height:2px; 
+  margin-left:2%; 
+  background: lightgray;
+  margin-bottom: 5px; 
+  margin-top: 20px;
+}
+
+
+.para1,.para2 {
+  text-align: left;
+  color: #777777;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+  
+.buttonsubmit{
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #4aaaa5;
+  font-size: 14px;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border: 2px solid 4aaaa5;
+}
+
+.buttonsubmit:hover {
+  background-color: gray; 
+  color: white;
+}
+
+.aboutmephoto {
+  float:left;
+  margin: 10px 10px 10px 20px;
+}
+
+.portfoliophoto{
+  margin-left: 10px;
+}
+  
+.inputtext {
+  margin-left: 20px;
+}
+
+.message{
+  height: 100px;
+}
+  
+.box {
+  /* Absolute Position */
+  position: absolute;
+  background: #4aaaa5;
+  margin: 10px 10px 10px 20px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 110px;
+}
+  
+.p2{
+  margin:0px;
+}
+
+.penguinphoto-1 {
+  top: 35%;
+  left: 14%;
+}
+  
+.penguinphoto-2 {
+  top: 35%;
+  left: 25%;
+}
+  
+.penguinphoto-3 {
+  top: 55%;
+  left: 14%;
+}
+
+.penguinphoto-4 {
+  top: 55%;
+  left: 25%;
+}
+
+.penguinphoto-5 {
+  top: 75%;
+  left: 14%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,.push {
+  font-size: 10px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 30px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  padding: 20px;
+  background-color: #666666;
+  color: white;
+  border-top: 8px solid #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+}
+
+  
