@@ -1,286 +1,365 @@
 /* RESET */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  #bodyid{
-    background-image: url("../images/gravel.png");
-  }
-  
-  header {
-    color: #333;
-    background: #ffffff;
-    border-bottom: 2px solid lightgray;
-    height: auto;
-    margin: auto;
-    padding: 0;
-    display: block;
-  }
-
-  body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .vl1 {
-    border-left: 1px solid lightgray;
-    height: 12px;
-    left: 63%;
-    top: 20px;
-    float:left;
-    position: absolute;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-  .vl2 {
-    border-left: 1px solid lightgray;
-    height: 12px;
-    left: 74%;
-    top: 20px;
-    float:left;
-    position: absolute;
-  }
+#bodyid {
+  background-image: url("../images/gravel.png");
+}
 
-  .box-set{
-    height: 55px;
-  }
+header {
+  color: #333;
+  background: #ffffff;
+  border-bottom: 2px solid lightgray;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
 
-  .portfoliophotogroup{
-    width: 240px;
-  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .photo{
-    position: relative;
-    float: left;
-  }
+.vl1 {
+  border-left: 1px solid lightgray;
+  height: 12px;
+  left: 63%;
+  top: 20px;
+  float: left;
+  position: absolute;
+}
 
-  .label{
-    height: 35px;
-    width: 100px;
-    position: absolute;
-    top: 65px;
-    margin-left: 10px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-  }
+.vl2 {
+  border-left: 1px solid lightgray;
+  height: 12px;
+  left: 74%;
+  top: 20px;
+  float: left;
+  position: absolute;
+}
 
-  .myname {
-    float: left;
-    background-color: #4aaaa5;
-    color: white;
-    width: 10%;
-    margin-left: 200px;  
-    vertical-align: middle;
-    line-height: 55px;
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+.box-set {
+  height: 55px;
+}
 
-  .tab {
-    float:left; 
-    background-color: white;
-    width: 8%;
-    vertical-align: middle;
-    line-height: 55px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: gray;
-  }
+.portfoliophotogroup {
+  width: 240px;
+}
 
-  .About {
-    left: 57%;
-    position: absolute;
-  }
+.photo {
+  position: relative;
+  float: left;
+}
 
-  .Portfolio {
-    left: 67%;
-    position: absolute;
-  }
+.label {
+  height: 35px;
+  width: 100px;
+  position: absolute;
+  top: 65px;
+  margin-left: 10px;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+}
 
-  .Contact {
-    left: 77%;
-    position: absolute;
-  }
-    
-  aboutme {
-    float:left;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100px;
-    color: #4aaaa5;
-    margin-top: 10px;
-  }
+.myname {
+  float: left;
+  background-color: #4aaaa5;
+  color: white;
+  width: 10%;
+  margin-left: 200px;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-  #content {
-    background-color: white;
-    height: 380px;
-    margin-top: 30px;
-    margin-left: 200px;
-    vertical-align: top;
-    line-height: 40px;
-    width: 960px;
-    color:gray;
-  }
+.tab {
+  float: left;
+  background-color: white;
+  width: 8%;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+}
 
-  #contactinfo {
-    background-color: white;
-    height: 430px;
-    margin-top: 30px;
-    margin-left: 200px;
-    vertical-align: top;
-    line-height: 40px;
-    width: 960px;
-    color:gray;
-  }
-    
-  #portfolioinfo{
-    background-color: white;
-    height: 459px;
-    margin-top: 30px;
-    margin-left: 200px;
-    vertical-align: top;
-    line-height: 40px;
-    width: 960px;
-    color:gray;
-  }
+.About {
+  left: 57%;
+  position: absolute;
+}
 
-  .h_line { 
-    width:95%; 
-    height:2px; 
-    margin-left:2%; 
-    background: lightgray;
-    margin-bottom: 5px; 
-    margin-top: 20px;
-  }
+.Portfolio {
+  left: 67%;
+  position: absolute;
+}
 
+.Contact {
+  left: 77%;
+  position: absolute;
+}
 
-  .para1 {
-    text-align: left;
-    color: #777777;
-    padding-right: 10px;
-    padding-left: 20px;
-  }
+aboutme {
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  color: #4aaaa5;
+  margin-top: 10px;
+}
 
-    
-  .buttonsubmit{
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: #4aaaa5;
-    font-size: 14px;
-    padding-inline-end: 15px;
-    padding-inline-start: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    border: 2px solid 4aaaa5;
-  }
+#content {
+  background-color: white;
+  height: 380px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color: gray;
+}
 
-  .buttonsubmit:hover {
-    background-color: gray; 
-    color: white;
-  }
+#contactinfo {
+  background-color: white;
+  height: 430px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color: gray;
+}
 
-  .aboutmephoto {
-    float:left;
-    margin: 10px 10px 10px 20px;
-  }
+#portfolioinfo {
+  background-color: white;
+  height: 459px;
+  margin-top: 30px;
+  margin-left: 200px;
+  vertical-align: top;
+  line-height: 40px;
+  width: 960px;
+  color: gray;
+}
 
-  .portfoliophoto{
-    margin-left: 10px;
-  }
-    
-  .inputtext {
-    margin-left: 20px;
-  }
+.h_line {
+  width: 95%;
+  height: 2px;
+  margin-left: 2%;
+  background: lightgray;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
 
-  .message{
-    height: 100px;
-  }
-    
-  .box {
-    position: absolute;
-    background: #4aaaa5;
-    margin: 10px 10px 10px 20px;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    height: 30px;
-    width: 110px;
-  }
-    
-  .p2{
-    margin:0px;
-  }
+.para1 {
+  text-align: left;
+  color: #777777;
+  padding-right: 10px;
+  padding-left: 20px;
+}
 
-  .wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
-  }
+.buttonsubmit {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #4aaaa5;
+  font-size: 14px;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border: 2px solid 4aaaa5;
+}
 
-  .footer,.push {
-    font-size: 10px;
-    text-align: center;
-    vertical-align: top;
-    line-height: 30px;
-    position:fixed;
-    bottom:0;
-    width:100%;
-    padding: 20px;
-    background-color: #666666;
-    color: white;
-    border-top: 8px solid #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 50px;
-  }
+.buttonsubmit:hover {
+  background-color: gray;
+  color: white;
+}
 
-    
+.aboutmephoto {
+  float: left;
+  margin: 10px 10px 10px 20px;
+}
+
+.portfoliophoto {
+  margin-left: 10px;
+}
+
+.inputtext {
+  margin-left: 20px;
+}
+
+.message {
+  height: 100px;
+}
+
+.box {
+  position: absolute;
+  background: #4aaaa5;
+  margin: 10px 10px 10px 20px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 110px;
+}
+
+.p2 {
+  margin: 0px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  font-size: 10px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #666666;
+  color: white;
+  border-top: 8px solid #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+}
